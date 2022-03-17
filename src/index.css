@@ -1,3 +1,9 @@
+:root {
+    --red-color: #F55A5A;
+    --purple-color: #2B283A;
+    --gray-color: #918E9B;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +17,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.header {
+    height: 55px;
+    background: var(--red-color);
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+.logo--text {
+    margin-left: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+
+.main {
+    width: 80vw;
+    /* background: blue; */
+    margin: 0 auto;
+}
+
+.item-container {
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.item-img-container {
+    display: flex;
+    /* background: red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.item-img {
+    height: 300px;
+    width: 220px;
+}
+
+.item-img img {
+    border-radius: .5rem;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+
+.item-description-container {
+    /* background: orange; */
+    text-align: left; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding: 2rem;
+}
+
+.item-description-pin {
+    width: 15px;
+}
+
+.item-description-location {
+    font-size: 1.5rem;
+    margin-left: .5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+
+.item-description-link {
+    
+    margin-left: 1rem;
+}
+.item-description-link a{
+    color: var(--gray-color);
+}
+
+hr.solid {
+    width: 95%;
+    border-top: 1px solid var(--gray-color);
+    opacity: 0.2;
+}
+
