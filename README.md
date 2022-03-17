@@ -2,7 +2,7 @@
 
 Project of an interface build in React JS that consumes an object (it could be an API) and generate a list of visited countries
 
-![Screenshot Meme Generator](https://user-images.githubusercontent.com/23657514/158812086-f78b4f0e-e6ed-473f-a1c9-c35afa5490a9.gif)
+![Screenshot Meme Generator](https://user-images.githubusercontent.com/23657514/158814471-aa85a14b-4d53-48c5-9b89-f010b672f0f4.png)
 
 ## What i learned with this project
 - Better use of components 
